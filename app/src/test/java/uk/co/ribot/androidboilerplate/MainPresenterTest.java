@@ -1,4 +1,4 @@
-package uk.co.ribot.androidboilerplate;
+package com.gamefriq.androidboilerplate;
 
 import org.junit.After;
 import org.junit.Before;
@@ -13,12 +13,12 @@ import java.util.Collections;
 import java.util.List;
 
 import rx.Observable;
-import uk.co.ribot.androidboilerplate.data.model.Ribot;
-import uk.co.ribot.androidboilerplate.test.common.TestDataFactory;
-import uk.co.ribot.androidboilerplate.test.common.rules.TestComponentRule;
-import uk.co.ribot.androidboilerplate.ui.main.MainMvpView;
-import uk.co.ribot.androidboilerplate.ui.main.MainPresenter;
-import uk.co.ribot.androidboilerplate.util.DefaultConfig;
+import com.gamefriq.androidboilerplate.data.model.Ribot;
+import com.gamefriq.androidboilerplate.test.common.TestDataFactory;
+import com.gamefriq.androidboilerplate.test.common.rules.TestComponentRule;
+import com.gamefriq.androidboilerplate.ui.main.MainMvpView;
+import com.gamefriq.androidboilerplate.ui.main.MainPresenter;
+import com.gamefriq.androidboilerplate.util.DefaultConfig;
 
 import static org.mockito.Matchers.anyListOf;
 import static org.mockito.Matchers.anyString;

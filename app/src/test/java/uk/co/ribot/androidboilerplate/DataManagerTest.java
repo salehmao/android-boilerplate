@@ -1,4 +1,4 @@
-package uk.co.ribot.androidboilerplate;
+package com.gamefriq.androidboilerplate;
 
 
 import android.database.Cursor;
@@ -16,13 +16,13 @@ import java.util.List;
 
 import rx.Observable;
 import rx.observers.TestSubscriber;
-import uk.co.ribot.androidboilerplate.data.local.Db;
-import uk.co.ribot.androidboilerplate.data.model.Ribot;
-import uk.co.ribot.androidboilerplate.test.common.TestDataFactory;
-import uk.co.ribot.androidboilerplate.test.common.TestDataManager;
-import uk.co.ribot.androidboilerplate.test.common.rules.ClearDataRule;
-import uk.co.ribot.androidboilerplate.test.common.rules.TestComponentRule;
-import uk.co.ribot.androidboilerplate.util.DefaultConfig;
+import com.gamefriq.androidboilerplate.data.local.Db;
+import com.gamefriq.androidboilerplate.data.model.Ribot;
+import com.gamefriq.androidboilerplate.test.common.TestDataFactory;
+import com.gamefriq.androidboilerplate.test.common.TestDataManager;
+import com.gamefriq.androidboilerplate.test.common.rules.ClearDataRule;
+import com.gamefriq.androidboilerplate.test.common.rules.TestComponentRule;
+import com.gamefriq.androidboilerplate.util.DefaultConfig;
 
 import static junit.framework.Assert.assertEquals;
 import static org.mockito.Mockito.when;

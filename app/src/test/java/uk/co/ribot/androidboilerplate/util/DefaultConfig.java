@@ -1,4 +1,4 @@
-package uk.co.ribot.androidboilerplate.util;
+package com.gamefriq.androidboilerplate.util;
 
 public class DefaultConfig {
     //The api level that Roboelectric will use to run the unit tests

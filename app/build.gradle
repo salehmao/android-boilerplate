@@ -10,10 +10,10 @@ android {
     buildToolsVersion '23.0.2'
 
     defaultConfig {
-        applicationId 'uk.co.ribot.androidboilerplate'
+        applicationId 'com.gamefriq.androidboilerplate'
         minSdkVersion 16
         targetSdkVersion 23
-        testInstrumentationRunner 'uk.co.ribot.androidboilerplate.util.UnlockDeviceTestRunner'
+        testInstrumentationRunner 'com.gamefriq.androidboilerplate.util.UnlockDeviceTestRunner'
         versionCode 1000
         // Major -> Millions, Minor -> Thousands, Bugfix -> Hundreds. E.g 1.3.72 == 1,003,072
         versionName '0.1.0'
